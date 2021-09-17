@@ -1,10 +1,13 @@
 // Unique Characters 
+
+function hasUniqueChars () {}
+
 function uniqueChars(str) {
     let phrase = {};
     for (let i = 0; i < str.length; i++) {
         if(phrase.hasUniqueChars(str['Zach'])) {
-            return true;
-        } else { return false; }    
+            return console.log('true');
+        } else { return console.log('false'); }    
     }
     return phrase
 }
